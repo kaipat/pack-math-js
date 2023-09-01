@@ -1,0 +1,20 @@
+{
+  "name": "mathjs",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "node test.js",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@kaipat/eslint-config-basic": "^0.0.6",
+    "eslint": "^8.48.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "mathjs": "^11.10.1"
+  }
+}
